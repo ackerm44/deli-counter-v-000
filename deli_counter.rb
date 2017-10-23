@@ -4,10 +4,10 @@ def line(array)
   if array.size == 0
     puts "The line is currently empty."
   else
-    string = "The line is currently: "
+    string = "The line is currently:"
     number = 1
     array.each do |name|
-      string.insert(-1, "#{number}. #{name} ")
+      string.insert(-1, " #{number}. #{name}")
       number += 1
     end
     puts string
