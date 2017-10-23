@@ -5,9 +5,10 @@ def line(array)
     puts "The line is currently empty."
   else
     string = "The line is currently "
-    number = array.index(name) + 1
+    number = 1
     array.each do |name|
-      string.insert(-1, "#{number}. ")
+      string.insert(-1, "#{number}. #{name} ")
+      number += 1
     end
   end
 end
