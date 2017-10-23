@@ -23,4 +23,3 @@ def now_serving(array)
     puts "Currently serving #{first}"
   end
 end
-
