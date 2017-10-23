@@ -8,6 +8,7 @@ def line(array)
     number = array.index(name) + 1
     array.each do |name|
       string << "#{number}. #{name} "
+    end
   end
 end
 
