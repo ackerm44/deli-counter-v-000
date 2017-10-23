@@ -7,7 +7,7 @@ def line(array)
     string = "The line is currently "
     number = array.index(name) + 1
     array.each do |name|
-      string.insert(-1, "#{number}. #{name} ")
+      string.insert(-1, "#{number}. ")
     end
   end
 end
