@@ -9,8 +9,8 @@ def line(array)
     array.each do |name|
       string.insert(-1, "#{number}. #{name} ")
       number += 1
-      puts string
     end
+    puts string
   end
 end
 
